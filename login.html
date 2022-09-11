@@ -1,0 +1,81 @@
+<!Doctpye>
+<html>
+<head>
+<title>login page</title>
+<style>
+body
+{
+background-color:#1abc9c;
+}
+.modal
+{
+background-color:lightgray;
+position : fixed;
+z-index:1;
+left:35%;
+right:35%;
+top:10%;
+border :1px solid #888;
+padding :10px;
+}
+input[type=text],input[type=password]
+{
+width:100%;
+padding:10px 12px;
+margin-top:8px;
+margin-bottom:8px;
+}
+button
+{
+color:white;
+background-color:green;
+width:100%;
+border:none;
+padding:14px 20px;
+margin:8px 0px;
+
+}
+.cancelbtn
+{
+background-color:red;
+width:auto;
+}
+span.psw
+{
+float:right;
+padding-top:20px;
+}
+.container2
+{
+background-color:#fififi;
+}
+.container1 button:hover
+{
+background-color:orange;
+}
+</style>
+</head>
+
+
+
+<body>
+<div class="modal">
+<form action="webpage.html"method ="post">
+<div  class ="container1">
+<b>Username</b> <input type ="text"
+Placeholder ="Enter username">
+<b>Password</b> <input type="password"
+placeholder="Enter password">
+<button type ="submit"><a href="webpage.html" >Login</a></button>
+<input type="checkbox" checked="checked"
+name="Remember">Remember me
+</div>
+<div class = "container2">
+<button class="cancelbtn"> cancel </button>
+<span class ="psw"> forgot <a href ="#"> password ? </a>
+</span>
+</div>
+</form>
+</div>
+</body>
+</html>
